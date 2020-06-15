@@ -7,8 +7,8 @@ ${browser}        chrome
 
 *** Test Cases ***
 To ensure site loaded
-    Local browser launch
-    #Jenkins browser launch
+    #Local browser launch
+    Jenkins browser launch
     Element Should Be Visible    xpath=.//div[@class='fl-page-header-logo']/a/img
     Sleep    4s
 
